@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.StatsActivity"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@color/bg"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="@string/menuStats"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:background="?android:colorPrimaryDark"
+        android:textColor="@color/text"
+        tools:targetApi="lollipop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imgProf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Profile Picture"
+            android:src="@drawable/char1" />
+
+        <TextView
+            android:id="@+id/txtProfName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="?android:colorPrimary"
+            android:text="Profile Name"
+            tools:targetApi="lollipop" />
+
+        <TextView
+            android:id="@+id/txtProfLevel"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/desc"
+            android:drawableStart="@drawable/desc"
+            android:drawablePadding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:text="ASDASD"/>
+
+        <TextView
+            android:id="@+id/txtProfExp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:drawableLeft="@drawable/exp"
+            android:drawableStart="@drawable/exp"
+            android:drawablePadding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:text="ASDASD"/>
+
+        <TextView
+            android:id="@+id/txtProfGold"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:drawableLeft="@drawable/gold"
+            android:drawableStart="@drawable/gold"
+            android:drawablePadding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:text="ASDASD"/>
+
+        <TextView
+            android:id="@+id/txtProfTasks"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:drawableLeft="@drawable/tasks"
+            android:drawableStart="@drawable/tasks"
+            android:drawablePadding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:text="ASDASD"/>
+
+        <Button
+            android:id="@+id/btnDeleteCharacter"
+            android:layout_width="match_parent"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:backgroundTint="?android:colorPrimaryDark"
+            android:textColor="@color/text"
+            android:text="@string/btnDeleteCharacter"
+            tools:targetApi="lollipop" />
+    </LinearLayout>
+
+</LinearLayout>

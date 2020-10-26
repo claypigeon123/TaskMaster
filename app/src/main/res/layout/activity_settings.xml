@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.SettingsActivity"
+    android:orientation="vertical"
+    android:gravity="top"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="@string/menuSettings"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:background="?android:colorPrimaryDark"
+        android:textColor="@color/text"
+        tools:targetApi="lollipop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnThemeOne"
+            android:layout_width="match_parent"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/text"
+            android:text="Red Theme" />
+
+        <Button
+            android:id="@+id/btnThemeTwo"
+            android:layout_width="match_parent"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/text"
+            android:text="Blue Theme" />
+
+        <Button
+            android:id="@+id/btnThemeThree"
+            android:layout_width="match_parent"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/text"
+            android:text="Dark Theme" />
+
+        <Button
+            android:id="@+id/btnThemeFour"
+            android:layout_width="match_parent"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/text"
+            android:text="Crazy Theme" />
+
+    </LinearLayout>
+
+</LinearLayout>

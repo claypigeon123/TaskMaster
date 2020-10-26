@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.TaskListActivity"
+    android:orientation="vertical"
+    android:gravity="top"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="@string/menuTaskList"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:background="?android:colorPrimaryDark"
+        android:textColor="@color/text"
+        tools:targetApi="lollipop"
+        />
+
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <ListView
+            android:id="@+id/listTasks"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCompleteTask"
+                android:layout_margin="4dp"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:padding="14dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:background="@color/button"
+                android:textColor="@color/text"
+                android:text="@string/btnCompleteTask" />
+
+            <Button
+                android:id="@+id/btnShare"
+                android:layout_margin="4dp"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:padding="14dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:background="@color/button"
+                android:textColor="@color/text"
+                android:text="@string/btnShare" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

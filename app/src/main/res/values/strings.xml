@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TaskMaster</string>
+    <string name="titleMain">Main Menu</string>
+    <string name="menuTaskList">Active Quests</string>
+    <string name="menuAddTask">New Quest</string>
+    <string name="menuStats">Profile</string>
+    <string name="menuSettings">Customization</string>
+    <string name="menuLogin">Select Character</string>
+    <string name="menuCreateChar">Character Creation</string>
+
+    <string name="hintName">Enter Quest Name</string>
+    <string name="hintDesc">Enter Quest Description</string>
+    <string name="hintExperience">Enter Experience Value</string>
+    <string name="hintGold">Enter Gold Value</string>
+    <string name="hintCharName">Enter Character Name</string>
+
+    <string name="btnAddTask">Create Quest</string>
+    <string name="btnCompleteTask">Complete Selected</string>
+    <string name="btnCreateCharacter">New Character</string>
+    <string name="btnCompleteCharacter">Create Character!</string>
+    <string name="btnChangeCharacter">Change Character</string>
+    <string name="btnShare">Share Selected</string>
+    <string name="btnDeleteCharacter">Delete Character</string>
+
+    <string name="txtImportanceLow">Low Importance</string>
+    <string name="txtImportanceMed">Medium Importance</string>
+    <string name="txtImportanceHigh">High Importance</string>
+
+    <string name="imgPrevious">Previous</string>
+    <string name="imgNext">Next</string>
+</resources>

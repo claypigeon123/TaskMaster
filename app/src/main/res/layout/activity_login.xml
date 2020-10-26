@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.TaskListActivity"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@color/bg"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="@string/menuLogin"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:background="?android:colorPrimaryDark"
+        android:textColor="@color/text"
+        tools:targetApi="lollipop" />
+
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <ListView
+            android:id="@+id/listProfs"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+        </ListView>
+
+        <Button
+            android:id="@+id/btnCreateChar"
+            android:layout_width="match_parent"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:background="@color/button"
+            android:text="@string/btnCreateCharacter" />
+
+    </LinearLayout>
+
+</LinearLayout>

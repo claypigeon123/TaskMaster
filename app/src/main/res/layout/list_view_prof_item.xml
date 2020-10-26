@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/profPic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/char1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/desc"/>
+            <TextView
+                android:id="@+id/profName"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Zoltan Nagy"
+                android:textColor="?android:colorPrimary"
+                android:textSize="22sp"
+                tools:targetApi="lollipop" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/exp"/>
+            <TextView
+                android:id="@+id/profExp"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Level 5"
+                android:textColor="?android:colorPrimary"
+                android:textSize="22sp"
+                tools:targetApi="lollipop" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gold"/>
+            <TextView
+                android:id="@+id/profGold"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="521"
+                android:textColor="?android:colorPrimary"
+                android:textSize="22sp"
+                tools:targetApi="lollipop" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
